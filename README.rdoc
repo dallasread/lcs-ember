@@ -1,0 +1,42 @@
+TODO
+
+* Visitor Profile (served by Agent which switches when new agent responds)
+* Apply Tags
+* Visitor Messages / Timeline
+* Transfer to agent
+
+* Send message to visitor
+* Canned Messages
+
+* Visitor Login
+* Assign visitor to agent
+* Send agent a message
+
+* Add Agents
+* Sign up as second agent
+
+* Introduce fields (without e-mail)
+* Triggers (After page views, show chat)
+* Close Prompted Message
+
+* Upgrade
+
+* My Profile Edit
+* Sign out for visitor
+* Sign out for admin
+
+* Email when agent not online
+* Agent is not here, leave your email to receive a slow reply
+
+* Surveys
+* Open in New Window
+* button location to 50 or 100 px from bottom right
+* show archived
+* upload files
+
+====
+
+* Free is 5 chats per month
+* 49 per year
+* 99 for triggers, multi - 16
+* 299 for coscreen

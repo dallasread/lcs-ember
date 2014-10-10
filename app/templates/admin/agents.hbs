@@ -1,0 +1,22 @@
+<table>
+	<thead>
+		<tr>
+			<th>Status</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each arrangedContent}}
+			<tr>
+				<td>{{#if online}}Online{{else}}Offline{{/if}}</td>
+				<td>{{ name }}</td>
+				<td>{{ email }}</td>
+				<td><button {{action "removeAgent" .}}>Remove</button></td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<button {{action "addAgent" .}}>Add Agent</button>
