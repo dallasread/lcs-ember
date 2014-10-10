@@ -1,0 +1,2 @@
+exclude = "{node_modules,branches,tags,trunk,npm-debug.log,bower_components,node_modules,dist,tests,tmp}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$extraExcludes,assets}" 
