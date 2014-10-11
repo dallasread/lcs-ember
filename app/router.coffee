@@ -14,7 +14,6 @@ Router.map ->
 		@route "settings", ->
 			@route "triggers"
 			@route "canned"
-			@route "introducer"
-			@route "surveys"
+			@route "introducers"
 
 `export default Router;`

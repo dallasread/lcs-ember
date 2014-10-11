@@ -1,1 +1,22 @@
 Canned.
+
+<table>
+	<thead>
+		<tr>
+			<th>Hashtag</th>
+			<th>Message</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each arrangedContent}}
+			<tr>
+				<td>{{ permalink }}</td>
+				<td>{{ message.body }}</td>
+				<td><button {{action "removeCanned" .}}>Remove</button></td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<button {{action "addCanned" .}}>Add Canned Message</button>

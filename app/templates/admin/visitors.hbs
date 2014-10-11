@@ -1,1 +1,24 @@
 Visitors.
+
+<table>
+	<thead>
+		<tr>
+			<th>Status</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Tags</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each arrangedContent}}
+			<tr>
+				<td>{{#if online}}&check;{{/if}}</td>
+				<td>{{ name }}</td>
+				<td>{{ email }}</td>
+				<td>{{ tags }}</td>
+				<td><button {{action "archiveVisitor" .}}>Archive</button></td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

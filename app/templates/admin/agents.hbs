@@ -10,7 +10,7 @@
 	<tbody>
 		{{#each arrangedContent}}
 			<tr>
-				<td>{{#if online}}Online{{else}}Offline{{/if}}</td>
+				<td>{{#if online}}&check;{{/if}}</td>
 				<td>{{ name }}</td>
 				<td>{{ email }}</td>
 				<td><button {{action "removeAgent" .}}>Remove</button></td>

@@ -1,5 +1,8 @@
 TODO
 
+* Setup process/admin login.
+* Visitor list
+
 * Visitor Profile (served by Agent which switches when new agent responds)
 * Apply Tags
 * Visitor Messages / Timeline
