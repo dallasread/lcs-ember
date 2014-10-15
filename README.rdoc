@@ -1,15 +1,17 @@
 TODO
 
+* load ember and style on the fly
+* set visitors path properly
 * Setup process/admin login.
-* Visitor list
+* Online/offline toggle
+* Disconnect should go offline
 
-* Visitor Profile (served by Agent which switches when new agent responds)
-* Apply Tags
 * Visitor Messages / Timeline
 * Transfer to agent
 
 * Send message to visitor
 * Canned Messages
+* Apply Tags
 
 * Visitor Login
 * Assign visitor to agent
@@ -17,6 +19,7 @@ TODO
 
 * Add Agents
 * Sign up as second agent
+* switch visitor agent when new agent responds
 
 * Introduce fields (without e-mail)
 * Triggers (After page views, show chat)

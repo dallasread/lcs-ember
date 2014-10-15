@@ -1,0 +1,9 @@
+{
+  "firebase": "lcs2",
+  "public": "dist/assets",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

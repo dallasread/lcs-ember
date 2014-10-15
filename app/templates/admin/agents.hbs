@@ -1,22 +1,26 @@
-<table>
-	<thead>
-		<tr>
-			<th>Status</th>
-			<th>Name</th>
-			<th>Email</th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		{{#each arrangedContent}}
-			<tr>
-				<td>{{#if online}}&check;{{/if}}</td>
-				<td>{{ name }}</td>
-				<td>{{ email }}</td>
-				<td><button {{action "removeAgent" .}}>Remove</button></td>
-			</tr>
-		{{/each}}
-	</tbody>
-</table>
+<div class="tab" data-tab="!/agents">
 
-<button {{action "addAgent" .}}>Add Agent</button>
+	<table>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each arrangedContent}}
+				<tr>
+					<td>{{#if online}}&check;{{/if}}</td>
+					<td>{{ name }}</td>
+					<td>{{ email }}</td>
+					<td><button {{action "removeAgent" .}}>Remove</button></td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+
+	<button {{action "addAgent" .}}>Add Agent</button>
+
+</div>

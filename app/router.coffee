@@ -4,8 +4,13 @@ Router = Ember.Router.extend()
 #	location: "none"
 
 Router.map ->
+	@route "chatbox"
+
 	@route "admin", ->
-		@route "visitors"
+		@route "visitors", ->
+			@route "visitor",
+				path: ":visitor_id"
+				
 		@route "agents"
 		@route "profile"
 		@route "upgrade"

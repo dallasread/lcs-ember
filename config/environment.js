@@ -1,6 +1,7 @@
 /* jshint node: true */
 
 module.exports = function(environment) {
+	evironment = "production";
   var ENV = {
     modulePrefix: 'lively',
     environment: environment,
