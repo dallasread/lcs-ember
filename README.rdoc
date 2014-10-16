@@ -1,17 +1,17 @@
 TODO
 
-* load ember and style on the fly
-* set visitors path properly
-* Setup process/admin login.
-* Online/offline toggle
-* Disconnect should go offline
-
 * Visitor Messages / Timeline
 * Transfer to agent
 
 * Send message to visitor
 * Canned Messages
 * Apply Tags
+
+* infinate scroll for visitors
+
+* Setup process/admin login.
+* Online/offline toggle
+* Disconnect should go offline
 
 * Visitor Login
 * Assign visitor to agent
@@ -39,6 +39,9 @@ TODO
 * button location to 50 or 100 px from bottom right
 * show archived
 * upload files
+* permissions
+
+* load ember and style on the fly
 
 ====
 

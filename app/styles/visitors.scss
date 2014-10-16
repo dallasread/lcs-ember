@@ -241,9 +241,17 @@
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
 		padding: 20px;
+	}
+	
+	.visitor_new_message {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: $leftbar_width + $visitors_width;
+		z-index: 99999;
 		
-		.message {
-			padding: 10px 0px;
+		textarea {
+			width: 100%;
 		}
 	}
 }
